@@ -26,7 +26,7 @@ const data = {
   npx:
     chalk.red("npx") +
     " " +
-    chalk.white("@bnb/card  (via GitHub Package Registry)"),
+    chalk.white("@jmsherry/card  (via GitHub Package Registry)"),
   labelWork: chalk.white.bold("       Work:"),
   labelOpenSource: chalk.white.bold("Open Source:"),
   labelTwitter: chalk.white.bold("    Twitter:"),
