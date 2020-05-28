@@ -1,16 +1,7 @@
-It's me, Tierney!
+# Business Card
 
-# Usage
+A business card for James Sherry.
 
-## npm
-```
-npx bitandbang
-```
+## Inspiration
 
-## GitHub Package Registry
-Assuming you have the GitHub registry set up, you can use via npx:
-```
-npx @bnb/card
-```
-
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
+<https://dev.to/wuz/setting-up-a-npx-username-card-1pip>
