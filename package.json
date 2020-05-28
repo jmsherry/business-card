@@ -1,5 +1,5 @@
 {
-  "name": "@bnb/card",
+  "name": "@jmsherry/card",
   "version": "1.6.0",
   "description": "A personal card for James Sherry (@jmsherry)",
   "main": "/bin/card.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jmsherry/business-card.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://thejump.tech",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
