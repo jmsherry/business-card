@@ -23,10 +23,7 @@ const data = {
   linkedin:
     chalk.gray("https://linkedin.com/in/") + chalk.blue("james-sherry-389060b"),
   web: chalk.cyan("https://thejump.tech/about/"),
-  npx:
-    chalk.red("npx") +
-    " " +
-    chalk.white("@jmsherry/card  (via GitHub Package Registry)"),
+  tel: chalk.white("0207 310 8642"),
   labelWork: chalk.white.bold("       Work:"),
   labelOpenSource: chalk.white.bold("Open Source:"),
   labelTwitter: chalk.white.bold("    Twitter:"),
@@ -34,20 +31,20 @@ const data = {
   labelGitHub: chalk.white.bold("     GitHub:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
   labelWeb: chalk.white.bold("        Web:"),
-  labelCard: chalk.white.bold("       Card:"),
+  labelTel: chalk.white.bold("       Tel:"),
 };
 
 // Actual strings we're going to output
 const newline = "\n";
 const heading = `${data.name} / ${data.handle}`;
-const working = `${data.labelWork}  ${data.work}`;
+const working = `          ${data.work}`;
 // const opensourcing = `${data.labelOpenSource}  ${data.opensource}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const npming = `${data.labelnpm}  ${data.npm}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
 const webing = `${data.labelWeb}  ${data.web}`;
-const carding = `${data.labelCard}  ${data.npx}`;
+const teling = `${data.labelTel}  ${data.tel}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
 const output =
@@ -70,7 +67,7 @@ const output =
   webing +
   newline +
   newline + // data.labelWeb + data.web
-  carding; // data.labelCard + data.npx
+  teling; // data.labelCard + data.npx
 
 fs.writeFileSync(
   path.join(__dirname, "bin/output"),
