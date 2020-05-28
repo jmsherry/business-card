@@ -44,7 +44,7 @@ const npming = `${data.labelnpm}  ${data.npm}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
 const webing = `${data.labelWeb}  ${data.web}`;
-const teling = `${data.labelTel}  ${data.tel}`;
+const teling = ` ${data.labelTel}  ${data.tel}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
 const output =
